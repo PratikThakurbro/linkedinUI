@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked.in</title>
+    <link rel="stylesheet" href="Ui.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="jquery.js"></script>
+
+    
+
+</head>
+<body>
+    <nav>
+        <div id="first-nav">
+        <img src="linklog.png">
+        </div>
+        <ul id="list">
+            <li><a href=""> <i class="ri-profile-line"></i> <br>Acticles</a> </li>
+            <li><a href=""> <i class="ri-group-fill"></i> <br>People</a></li>
+            <li><a href=""> <i class="ri-terminal-window-line"></i><br>Learning</a></li>
+            <li><a href=""> <i class="ri-handbag-fill"> </i><br>Jobs</a></li>
+            <li><a href=""> <i class="ri-macbook-line"></i><br>Get the app</a></li>
+        </ul>
+        
+        <div id="third">
+            <a class="join" href="">Join now</a>
+            <button class="bt-1"><a class="sign" href="">Sign in</a></button>
+        </div>
+    </nav>
+
+    <!-- =======================mane=========================== -->
+    <div id="main">
+        <div id="main-r-page">
+            <h1 class="head">Welcome to your professional community</h1>
+            <form action="page2.html">
+                <label class="lab" for="">Email or phone</label> <br>
+                <input type="email" id="email-inp"  required> <br><span class="span-inp" style="color: red;"></span> <br>
+                <label class="lab" for="">Password</label> <br>
+                <input type="password" id="pass-inp"  required > <br><span class="span-inp2" style="color: red;"></span><br>
+                <a class="forgot" href="#">Forgot password? </a> <br><br>
+                <div class="forgot-password" >
+                    <label class="lab" for="">Old password</label> <br>
+                    <input type="password" id="old-pass"> <br><br>
+                    <label class="lab" for="">New password</label> <br>
+                    <input type="password" id="new-pass"  > <br><br>
+                    <label class="lab" for="">Confirm New password</label> <br>
+                    <input type="password" id="pass" class="newpass-1"  > <br><span class="newpassword-inp" style="color: red;">
+                        Password didn't Match</span><br>
+                    <input type="submit" name=""  value="Sign in" id="sub">
+                </div>
+                
+           
+                <input type="submit"  value="Sign in" id="sub">
+                
+                <br><br>
+                <div id="line">
+                    <div id="div1"></div>
+                    <div id="div2"><h5>or</h5></div>
+                    <div id="div3"></div>
+                </div><br><br>
+                 <div id="para">By clicking Continue, you agree to LinkedIn’s <a class="p-a" href="">User ,Agreement, Privacy Policy</a>  and <a class="p-a" href="">Cookie Policy.</a> </div><br>
+
+                 <div id="but"><a href="">
+                    <div id="img"><img src="google.png" alt="wait"></div>
+                    <div id="but-text">Continue with Google</div></a>
+                 </div> <br>
+                <div id="but2"><a href=""><div id="but-m">New to LinkedIn? Join now</div></a></div>
+            </form>
+        </div>
+        <div id="main-l-page">
+            <img src="linkedin.png" alt="sorry">
+        </div>
+    </div>
+    <div id="explore">
+        <div id="explore-text">
+            <h2 id="h2">Explore collaborative articles</h2> <br>
+            <p>We’re unlocking community knowledge in a new way. Experts add insights directly into each article, started with the help of AI.</p>
+        </div>
+        <div id="explore-list" class="list_aitam"> 
+        
+                <a href="">Marketing</a>
+                <a href="">Public Administration</a>
+                <a href="">Healthcare</a>
+                <a href="">Engineering</a><br>
+                <a href="">IT Service</a>
+                <a href="">Sustainability</a>
+                <a href="">Business Administration</a><br>
+                <a href="">Telecommunications</a>
+                <a href="">HR Management</a>
+                <a  class="sign-2" href="">Show all</a>
+      
+        </div>
+    </div>
+    <div id="internship">
+        <div id="text"><h2 class="h2">Find the right job or internship for you
+        </h2></div>
+        <div id="internship-list" class="list_aitam">
+            <p class="list-p">SUGGESTED SEARCHES</p> <br>
+    
+            <a href="">Engineering</a>
+            <a href=""> Business Development</a>
+            <a href="">Finance  </a> <br>
+            <a href=""> Administrative Assistant</a> 
+            <a href="">Reatail Associate</a> 
+            <a href="">Customer Service </a><br>
+            <a href="">Operatins</a>
+            <a href="">Information Technoliogy</a>
+            <a href="">Marketing</a><br>
+            <a href="">Human Resources</a><br>
+            <a id="show-list">Show more<i class="ri-arrow-down-s-line"></i></a>
+        </div>
+    </div>
+
+ <div id="text-btn">
+    <div id="text-only">
+        <h1>Post your job for millions of people to see</h1>
+    </div>
+    <div id="buton-only">
+        <a class="sign-3" href="">Post a job</a>
+    </div>
+ </div>
+
+ <div id="tools">
+    <div id="tools-1">
+        <h2 class="tools-h2">Discover the best software tools</h2>
+        <p class="tools-p">Connect with buyers who have first-hand experience to find the best products for you.</p>
+    </div>
+
+ <div id="tools-suj">
+    <p class="list-p">SUGGESTED TOOLS</p><br>
+    <a href="">E-Commerce Platforms</a>
+    <a href="">CRM Software</a> <br>
+    <a href="">Human Resources Management Systems</a>
+    <a href="">Recruiting</a> <br>
+    <a href="">Sales Intelligence Software</a>
+    <a href="">Project Management Software</a> <br>
+    <a href="">Help Desk Software</a>
+    <a href="">Social Networking Software</a> <br>
+    <a href="">Desktop Publishing Software</a>
+    <a class="sign-4" href="">Show all</a>
+ </div>
+</div>
+<div id="work">
+    <div id="right-puple">
+        <h2>Let the right people know you’re open to work</h2>
+        <p>With the Open To Work feature, you can privately tell recruiters or publicly share with the LinkedIn community that you are looking for new job opportunities.</p>
+    </div>
+    <div id="img-pup">
+        <img src="dbvmk0tsk0o0hd59fi64z3own.png" alt="sorry">
+    </div>
+</div>
+
+
+ <div id="img-div">
+    <div id="firsti">
+        <div class="img-first">
+            <img src="first.svg" alt="">
+        </div><br>
+        <div class="div-text"><p>Connect with people who can help</p><br><br>
+        <a class="img-but" href="">Find people you know</a>
+        </div>
+    </div>
+    <div id="secondi">
+        <div class="img-first">
+            <img src="sec.svg" alt="">
+        </div> <br>
+        <div class="div-text"><p>Learn the skills you need to succeed</p> <br><br>
+        <a class="img-inp" href="">Choose a topic to learn about  <i class="ri-arrow-down-s-fill"></i></a>
+        </div>
+    </div>
+ </div>
+
+ <div id="bigimg">
+    <div id="big-text">
+        <h2>Who is LinkedIn for?</h2>
+        <p>Anyone looking to navigate their professional life.</p> <br><br>
+        <div id="butbig-option">
+        <a class="big-but">Find a coworker or classmate <i id="arrow1" class="ri-arrow-right-s-line"></i></a> <br><br><br>
+        <a class="big-but">Find a new job <i  id="arrow2" class="ri-arrow-right-s-line"></i></a><br> <br><br>
+        <a class="big-but">Find a course or training <i  id="arrow3" class="ri-arrow-right-s-line"></i></a></div>
+    </div>
+    <div id="big--img"> <img src="eghb2zc0p5s2x42wbi80w4v8a.jpg" alt=""></div>
+   
+ </div>
+ <div id="video-text">
+    <div id="video">
+        <img src="https://media.istockphoto.com/id/1036100456/photo/glowing-light-bulb-standing-out-from-the-crowd.webp?b=1&s=170667a&w=0&k=20&c=cnwJDjNkGhC-NpXtcF4qIIf0cO69Wyi3rX07fUxys7U=" alt="">
+
+    </div>
+    <div id="text-v">
+        <h2>In it to chase my dream</h2> <br>
+        <p>Check out Gayatri’s story of finding a new job on LinkedIn</p>
+    </div>
+
+ </div>
+ <div id="last-page">
+    <h1>Join your colleagues, classmates, and friends on LinkedIn.</h1> <br>
+    <a href="">Get started</a>
+ </div>
+
+
+</body>
+
+</html>
